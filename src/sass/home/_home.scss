@@ -1,0 +1,120 @@
+.home{
+.hero-cont{
+		background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("../../img/home/header.jpg");
+		background-position: top;
+		background-size: cover;
+		padding: 2rem 0;
+		.container{
+			.row{
+				.left-cont{
+					color: $color__text-light;
+					text-align: center;
+					h1{
+						line-height: 1.1;
+					}
+					p{
+						
+					}
+					input{
+						display: block;
+						width: 80%;
+						margin: 0 auto;
+						text-align: center;
+						margin-bottom: 1rem;
+						border-radius: 5px;
+						outline: 0;
+					}
+					a{
+						text-align: center;
+						display: inline-block;
+						padding: 0.3rem 2rem;
+						background: royalblue;
+						color: $color__text-light;
+						border-radius: 5px;
+					}
+				}
+				.right-cont{
+					img{
+						padding: 1rem;
+					}
+				}
+			}
+		}
+	}
+
+	.recipe-list-cont{
+		padding: 2rem 0;
+		.container{
+			h2{
+				margin: 0;
+			}
+			.recipes-outer{
+				overflow-x: auto;
+				margin: 0 -24px;
+				.recipes-cont{
+					display: flex;
+					height: 200px;
+					float: left;
+					min-width: 100%;
+					padding: 24px;
+					a{
+						min-width: 200px;
+					    margin-right: 1rem;
+					    box-shadow: 0px 0px 5px 0px lighten($color__text-main, 15%);
+					    border-radius: 0.5rem;
+					    display: flex;
+					    text-decoration: none;
+					    color: $color__text-main;
+						&:last-child{
+							margin-right: 0;
+						}
+						.recipe{
+							flex: 1 1 auto;
+							display: flex;
+							flex-direction: column;
+							.img-cont{
+								background-size: cover;
+								background-position: center center;
+							    border-top-left-radius: 0.5rem;
+							    border-top-right-radius: 0.5rem;
+							    flex: 1 1 auto;
+							}
+							.text-cont{
+								padding: 0.5rem;
+								h4{
+									margin: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.cta-cont{
+		margin-bottom: 40px;
+		padding: 2rem 0;
+		background-color: $color__text-main;
+		background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("../../img/cta/bg.jpg");
+		background-position: center;
+		background-size: cover;
+		.container{
+			color: $color__text-light;
+			text-align: center;
+			h5{
+				margin: 0;
+				margin-bottom: 1rem;
+			}
+			a{
+				text-align: center;
+				display: inline-block;
+				padding: 0.3rem 2rem;
+				background: royalblue;
+				color: $color__text-light;
+				border-radius: 5px;
+				text-decoration: none;
+			}
+		}
+	}
+}

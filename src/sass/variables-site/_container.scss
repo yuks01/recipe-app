@@ -1,0 +1,23 @@
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 769px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px,
+	xxxl: 1850px,
+	xxxxl: 2500px
+);
+
+$container-max-widths: (
+	sm: 100%,
+	md: 720px,
+	lg: 960px,
+	xl: 1140px,
+	xxl: 1240px,
+	xxxl: 1440px,
+	xxxxl: 2100px
+);
