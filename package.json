@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://recipe.aosky.icu/",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "query-string": "^5.1.1",
     "react": "^16.11.0",
     "react-app-polyfill": "^1.0.4",
